@@ -6,7 +6,9 @@ This exercise involves comparing the performance of the Minimax and Alpha-Beta p
 
 ## Implementation Details
 
-Both algorithms have been modified to count the number of nodes they explore during the search process. This is done by incrementing a counter each time a node is visited in the recursive search functions.
+The comparison is implemented in the `src/fr/emse/ai/adversarial/TestAdversarialSearch.java` file, which creates an example game tree and runs both algorithms on it.
+
+Both algorithms (`src/fr/emse/ai/adversarial/MiniMaxAlgo.java` and `src/fr/emse/ai/adversarial/AlphaBetaAlgo.java`) have been modified to count the number of nodes they explore during the search process. This is done by incrementing a counter each time a node is visited in the recursive search functions.
 
 ### Counting Mechanism
 

@@ -6,14 +6,14 @@ This exercise involves implementing the Alpha-Beta pruning algorithm for a simpl
 
 ## Implementation Details
 
-The implementation is in the `AlphaBetaAlgo.java` file, which contains the following key components:
+The implementation is in the `src/fr/emse/ai/adversarial/AlphaBetaAlgo.java` file, which contains the following key components:
 
 ### Class Structure
 
 ```java
 public class AlphaBetaAlgo {
     private int expandedNodes;
-    
+
     public AlphaBetaAlgo() { ... }
     public int alphaBeta(SimpleTwoPlyGameTree tree) { ... }
     private int alphaBetaValue(SimpleTwoPlyGameTree node, int alpha, int beta) { ... }

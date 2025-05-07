@@ -6,7 +6,7 @@ This exercise involves implementing the Minimax algorithm for a simple two-ply g
 
 ## Implementation Details
 
-The implementation is in the `MiniMaxAlgo.java` file, which contains the following key components:
+The implementation is in the `src/fr/emse/ai/adversarial/MiniMaxAlgo.java` file, which contains the following key components:
 
 ### Class Structure
 

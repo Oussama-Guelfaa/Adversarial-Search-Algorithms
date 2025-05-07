@@ -153,6 +153,8 @@ chapter5-src/
 
 ## Running the Project
 
+The `bin` directory is not included in the repository as it contains compiled `.class` files. These files are excluded via the `.gitignore` file, which is a standard practice in Java projects. Instead, you'll need to compile the source code yourself.
+
 To compile and run the project:
 
 ```bash
